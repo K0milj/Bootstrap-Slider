@@ -1,0 +1,25 @@
+.carousel-item {
+    height: 100vh;
+    background-color: #777;
+    color: white;
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    position: absolute;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+}
